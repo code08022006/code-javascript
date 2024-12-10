@@ -1,9 +1,9 @@
-let myDate=new Date();
+let myDate=new Date();// this will print today's date
 // console.log(myDate);
 // console.log(myDate.toString());
-// console.log(myDate.toLocaleString());
-// console.log(myDate.toLocaleTimeString());
-// console.log(myDate.toDateString());
+// console.log(myDate.toLocaleString());//It will print date and time also
+// console.log(myDate.toLocaleTimeString()); // It will print only time
+console.log(myDate.toDateString()); //
 // console.log(myDate.toISOString());
 // console.log(myDate.toJSON());
 
