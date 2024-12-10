@@ -22,8 +22,47 @@ function loggedUser(username){
     return `${username} just logged in`
 }
 
-const result1=loggedUser()
-console.log(result1);
+// const result1=loggedUser()
+// console.log(result1);
+function customerCart(...num1){
+    return num1;
+} // use this when we want to print multiple values at the same time
+// console.log(customerCart(200,300,400,5000));
+
+const user={
+    username:"aditya",
+    price:199
+}
+function Handleobject(anyobject){
+    console.log(`username is ${anyobject.username} price is ${anyobject.price}`);
+    
+}
+// console.log(Handleobject(user));
+const myArray=[200,300,400,500];
+function returnsecondArray(getArray){
+    return getArray[1];
+
+}
+console.log(returnsecondArray(myArray));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
