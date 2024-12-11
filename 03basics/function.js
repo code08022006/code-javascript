@@ -45,6 +45,19 @@ function returnsecondArray(getArray){
 }
 console.log(returnsecondArray(myArray));
 
+//************************interseting */
+// function decleration 2 ways 
+function addOne(num){
+    return num+1;
+}
+addOne(4)
+console.log(addTwo(2))
+
+const addTwo=function(num){
+    return num+2
+}
+
+
 
 
 
